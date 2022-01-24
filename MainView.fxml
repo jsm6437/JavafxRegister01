@@ -8,7 +8,6 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainViewController">
    <children>
       <TableView fx:id="tAble" layoutX="226.0" layoutY="57.0" prefHeight="376.0" prefWidth="330.0">
@@ -25,5 +24,6 @@
       <Label layoutX="40.0" layoutY="107.0" text="PW" />
       <Label layoutX="23.0" layoutY="156.0" text="Phone" />
       <Button layoutX="72.0" layoutY="270.0" mnemonicParsing="false" onAction="#getRegister" prefHeight="72.0" prefWidth="80.0" text="Register" />
+      <Button layoutX="81.0" layoutY="382.0" mnemonicParsing="false" onAction="#del_Clicked" prefHeight="29.0" prefWidth="62.0" text="Delete" />
    </children>
 </AnchorPane>
