@@ -17,13 +17,14 @@
             <TableColumn fx:id="rPH" prefWidth="110.0" text="Phone" />
         </columns>
       </TableView>
-      <TextField fx:id="ipID" layoutX="64.0" layoutY="57.0" prefHeight="22.0" prefWidth="145.0" />
-      <TextField fx:id="ipPH" layoutX="64.0" layoutY="152.0" prefHeight="22.0" prefWidth="145.0" />
-      <PasswordField fx:id="ipPW" layoutX="64.0" layoutY="103.0" prefHeight="22.0" prefWidth="145.0" />
+      <TextField fx:id="ipID" layoutX="64.0" layoutY="57.0" prefHeight="22.0" prefWidth="145.0" promptText="아이디 입력" />
+      <TextField fx:id="ipPH" layoutX="64.0" layoutY="152.0" prefHeight="22.0" prefWidth="145.0" promptText="전화번호 입력" />
+      <PasswordField fx:id="ipPW" layoutX="64.0" layoutY="103.0" prefHeight="22.0" prefWidth="145.0" promptText="비밀번호 입력" />
       <Label layoutX="50.0" layoutY="61.0" text="ID" />
       <Label layoutX="40.0" layoutY="107.0" text="PW" />
       <Label layoutX="23.0" layoutY="156.0" text="Phone" />
-      <Button layoutX="72.0" layoutY="270.0" mnemonicParsing="false" onAction="#getRegister" prefHeight="72.0" prefWidth="80.0" text="Register" />
-      <Button layoutX="81.0" layoutY="382.0" mnemonicParsing="false" onAction="#del_Clicked" prefHeight="29.0" prefWidth="62.0" text="Delete" />
+      <Button layoutX="72.0" layoutY="270.0" mnemonicParsing="false" onAction="#getRegister" prefHeight="72.0" prefWidth="80.0" text="회원등록" />
+      <Button layoutX="69.0" layoutY="390.0" mnemonicParsing="false" onAction="#del_Clicked" prefHeight="35.0" prefWidth="80.0" text="회원삭제" />
+      <Button fx:id="Btn_lgn" layoutX="504.0" layoutY="468.0" mnemonicParsing="false" onAction="#lgn_Clicked" text="로그인" />
    </children>
 </AnchorPane>
